@@ -1,0 +1,74 @@
+.abcompany {
+	padding: 50px 0 30px;
+}
+
+
+.company__top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.company__title-box {
+	max-width: 800px;
+	padding-left: 140px;
+	position: relative;
+}
+
+.company__title-box:before {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 2px;
+	background-color:rgb(46, 192, 202);
+	left: 0;
+	top: 11px;
+}
+
+.company__title {
+	font-size: 24px;
+	line-height: 24px;
+	color: #212020;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+}
+
+.company__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+
+
+
+.company__price-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.company__btn {
+	color: #373636;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	padding: 8px 30px;
+	border: 2px solid rgb(46, 192, 202);
+	margin-bottom: 15px;
+	align-items: center;
+	text-align: center;
+}
+
+.company__btn:hover {
+	color: #fff;
+	background-color: rgb(46, 192, 202);
+	transition: all .5s ease;
+}
+
+
+/*-------------------------repair---------------------------------*/
+
+.otstyp {
+	margin-left: 25px;
+}
